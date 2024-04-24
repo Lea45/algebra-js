@@ -1,0 +1,19 @@
+{
+  "name": "say-hi-358",
+  "version": "1.0.0",
+  "description": "Example function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "function",
+    "algebra"
+  ],
+  "author": "varziclea",
+  "license": "ISC",
+  "dependencies": {
+    "say-hi-358": "^1.0.0"
+  }
+}

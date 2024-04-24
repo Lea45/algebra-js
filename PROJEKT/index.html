@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do list</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <h2>To Do Lista</h2>
+        <p>
+          Unesite vaš popis obaveza, a kada završite s nekim zadatkom, dvaput
+          kliknite na njegov redak kako biste ga označili kao završenog.
+        </p>
+        <form name="toDoList">
+          <input type="text" name="ListItem" />
+          <div class="select-wrapper">
+            <select id="categorySelect">
+              <option value="posao">Posao</option>
+              <option value="kuća">Kuća</option>
+              <option value="osobno">Osobno</option>
+            </select>
+          </div>
+          <div id="button">Dodaj</div>
+        </form>
+        <div class="columns">
+          <div class="column" id="posaoColumn">
+            <h3>Posao</h3>
+            <ol id="posaoList"></ol>
+          </div>
+          <div class="column" id="kucaColumn">
+            <h3>Kuća</h3>
+            <ol id="kucaList"></ol>
+          </div>
+          <div class="column" id="osobnoColumn">
+            <h3>Osobno</h3>
+            <ol id="osobnoList"></ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
